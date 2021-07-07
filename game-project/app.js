@@ -5,7 +5,7 @@ const body = require("body-parser");
 const ejs = require("ejs");
 
 app.use(body.urlencoded({extended:false}));
-//post방식으로 데이터를 처리할 때 사용하는 기능
+//post방식으로 데이터를 처리할 때 사용하는 기능z
 
 const session = require("express-session");
 
