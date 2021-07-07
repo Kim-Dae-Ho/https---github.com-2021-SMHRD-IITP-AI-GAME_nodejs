@@ -14,7 +14,7 @@ router.post("/Login", function(request, response){
     let id = request.body.id;
     let pw = request.body.pw;
     //사용자가 입력한 id가 smart이고
-    //사용자가 입력한 pw가 123일 때 성공이면 LoginS.html로 이동. 실패하면 LoginF.html로 이동.z
+    //사용자가 입력한 pw가 123일 때 성공이면 LoginS.html로 이동. 실패하면 LoginF.html로 이동.zㅋ
 
         conn.connect(); //mysql 연결
     

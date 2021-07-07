@@ -7,6 +7,6 @@ const conn = mysql.createConnection({
     password : "1234",
     port : "3306",
     database : "game_db"
-}) //mysql 정보 입력z
+}) //mysql 정보 입력zㅋ
 
 module.exports = conn;
